@@ -1,0 +1,29 @@
+{
+  "name": "js-qal6q1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c && npm run gzip",
+    "serve": "http-server dist -c-1 -g",
+    "gzip": "gzip -k9nr dist"
+  },
+  "dependencies": {
+    "@google-web-components/google-chart": "3.0.4",
+    "@polymer/iron-a11y-keys-behavior": "3.0.1",
+    "@polymer/iron-ajax": "3.0.1",
+    "@polymer/iron-behaviors": "3.0.1",
+    "@polymer/iron-flex-layout": "3.0.1",
+    "@polymer/iron-list": "^3.0.2",
+    "@polymer/iron-input": "^3.0.1",
+    "@polymer/paper-dropdown-menu": "3.0.1",
+    "@polymer/paper-icon-button": "3.0.2",
+    "@polymer/paper-item": "3.0.1",
+    "@polymer/paper-listbox": "3.0.1",
+    "@polymer/polymer": "3.2.0",
+    "lit-element": "^2.1.0",
+    "web-animations-js": "2.3.1"
+  },
+  "devDependencies": {
+    "rollup": "^1.11.0"
+  }
+}
